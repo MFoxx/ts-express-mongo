@@ -1,0 +1,26 @@
+{
+  "name": "ts-express",
+  "version": "1.0.0",
+  "description": "Basic example of express server with MongoDB database, CRUD",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.ts",
+    "build": "tsc -p ."
+  },
+  "author": "Michal Gally",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongoose": "^5.10.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.15"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "@types/node": "^14.14.7",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  }
+}
